@@ -59,7 +59,7 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/allroads/logo.png
   gravatar: false
 
 # Customize the favicons.
@@ -73,13 +73,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/favicon.ico
+    url: /images/allroads/favicon.ico
     gravatar: false
   android:
-    url: /images/favicon-192x192.png
+    url: /images/allroads/favicon-192x192.png
     gravatar: false
   apple:
-    url: /images/apple-touch-icon.png
+    url: /images/allroads/apple-touch-icon.png
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
