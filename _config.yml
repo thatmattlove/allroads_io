@@ -93,9 +93,14 @@ plugins:
 #  - hexo-generator-feed
 ## Themes: https://hexo.io/themes/
 theme: cactus
+### Theme Overrides:
 theme_config:
   projects_url: https://github.com/checktheroads
   colorscheme: dark
+  nav:
+    home: /
+    about: /about/
+    articles: /archives/
   rss: false
   social_links:
     github: https://github.com/checktheroads
