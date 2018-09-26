@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -49,8 +49,7 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
-  per_page: 10
+  per_page: 5
   order_by: -date
 
 # Category & Tag
@@ -74,11 +73,22 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 plugins:
   - hexo-auto-canonical
-  - hexo-generator-alias
-  - hexo-toc
   - hexo-autonofollow
   - hexo-deployer-git
   - hexo-deployer-netlify
+  - hexo-generator-alias
+  - hexo-generator-archive
+  - hexo-generator-category
+  - hexo-generator-feed
+  - hexo-generator-index
+  - hexo-generator-tag
+  - hexo-renderer-ejs
+  - hexo-renderer-jade
+  - hexo-renderer-marked
+  - hexo-renderer-pug
+  - hexo-renderer-stylus
+  - hexo-server
+  - hexo-toc
 #  - hexo-generator-feed
 ## Themes: https://hexo.io/themes/
 theme: cactus
@@ -89,9 +99,7 @@ theme_config:
   social_links:
     github: https://github.com/checktheroads
     twitter: https://twitter.com/checktheroads
-    facebook:
     linkedin: https://www.linkedin.com/in/matt-love/
-    mail:
   google_analytics:
     enabled: true
     id: UA-126189890-1
