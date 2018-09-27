@@ -76,7 +76,7 @@ plugins:
   - hexo-autonofollow
   - hexo-deployer-git
   - hexo-deployer-netlify
-  - hexo-generator-alias
+#  - hexo-generator-alias
   - hexo-generator-archive
 #  - hexo-generator-category
   - hexo-generator-cname
@@ -90,7 +90,7 @@ plugins:
   - hexo-renderer-stylus
   - hexo-server
   - hexo-toc
-#  - hexo-generator-feed
+  - hexo-generator-feed
 ## Themes: https://hexo.io/themes/
 theme: cactus
 ### Theme Overrides:
