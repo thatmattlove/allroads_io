@@ -78,11 +78,11 @@ plugins:
   - hexo-deployer-netlify
   - hexo-generator-alias
   - hexo-generator-archive
-  - hexo-generator-category
+#  - hexo-generator-category
   - hexo-generator-cname
   - hexo-generator-feed
-  - hexo-generator-index
-  - hexo-generator-tag
+#  - hexo-generator-index
+#  - hexo-generator-tag
   - hexo-renderer-ejs
   - hexo-renderer-jade
   - hexo-renderer-marked
