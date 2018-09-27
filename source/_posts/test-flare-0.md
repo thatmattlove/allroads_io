@@ -3,13 +3,13 @@ title: test flare
 date: 2018-09-26 10:59:57
 tags:
 ---
-# Sending up a test flare.
+# Sending up a test flare
 
 ## Non-Bogon IPv4 Address Space
 
 Can't use a default route for **#reasons**? Try this:
 
-```
+``` cisco
 0.0.0.0/5
 8.0.0.0/7
 11.0.0.0/8
