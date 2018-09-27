@@ -117,11 +117,13 @@ theme_config:
     home: /
     about: /about/
     articles: /archives/
-  rss: false
+  rss: 
   social_links:
-    github: https://github.com/checktheroads
     twitter: https://twitter.com/checktheroads
     linkedin: https://www.linkedin.com/in/matt-love/
+    at: mailto:matt@allroads.io
+    slack: https://slack.com
+    github: https://github.com/checktheroads
   google_analytics:
     enabled: true
     id: UA-126189890-1
@@ -140,15 +142,15 @@ toc:
     symbol: '#'
     style: header-anchor
 ### hexo-generator-feed
-# feed:
-#   type: atom
-#   path: atom.xml
-#   limit: 50
-#   hub:
-#   content:
-#   content_limit: 140
-#   content_limit_delim: ' '
-#   order_by: -date
+  feed:
+   type: atom
+   path: atom.xml
+   limit: 50
+   hub:
+   content:
+   content_limit: 140
+   content_limit_delim: ' '
+   order_by: -date
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
