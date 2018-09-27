@@ -121,7 +121,7 @@ theme_config:
   social_links:
     twitter: https://twitter.com/checktheroads
     linkedin: https://www.linkedin.com/in/matt-love/
-    at: mailto:matt@allroads.io
+    mail: mailto:matt@allroads.io
     slack: https://slack.com
     github: https://github.com/checktheroads
   google_analytics:
