@@ -1,15 +1,14 @@
 ---
-title: test flare
+title: non-default default route(s)
 date: 2018-09-26 10:59:57
 tags:
 ---
-# Sending up a test flare
 
-## Non-Bogon IPv4 Address Space
+# Non-Bogon IPv4 Address Space
 
-Can't use a default route for **#reasons**? Try this:
+Can't use a default route for **#reasons**? Try these:
 
-``` cisco
+```
 0.0.0.0/5
 8.0.0.0/7
 11.0.0.0/8
@@ -42,4 +41,4 @@ Can't use a default route for **#reasons**? Try this:
 208.0.0.0/4
 ```
 
-Tudo bém.
+I can't remember why I needed this, but I had a good reason at the time.
