@@ -72,17 +72,17 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 plugins:
-#  - hexo-auto-canonical
+  - hexo-auto-canonical
   - hexo-autonofollow
   - hexo-deployer-git
   - hexo-deployer-netlify
-#  - hexo-generator-alias
+  - hexo-generator-alias
   - hexo-generator-archive
-#  - hexo-generator-category
+  - hexo-generator-category
   - hexo-generator-cname
   - hexo-generator-feed
   - hexo-generator-index
-#  - hexo-generator-tag
+  - hexo-generator-tag
   - hexo-renderer-ejs
   - hexo-renderer-jade
   - hexo-renderer-marked
