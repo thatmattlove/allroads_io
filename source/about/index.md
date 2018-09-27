@@ -29,146 +29,80 @@ Who knows. Lately my mind’s been on stuff like whitebox routing, DDoS mitigati
 - Container computing & networking
 - Other things I discover along the way
 
-> ### What it's Like to be a Network Engineer...
->
-> ####...translated into normal people speak
->
-> **User:** I think we are having a major road issue.
->
->
->
-> **Me:** What? No, I just checked, the roads are fine. I was actually just on the roads.
->
->
->
-> **User:** No, I’m pretty sure the roads are down because I’m not getting pizzas.
->
->
->
-> **Me:** Everything else on the roads is fine. What do you mean you aren’t getting pizzas?
->
->
->
-> **User:** I used to get pizzas when I ordered them, now I’m not getting them. It has to be a road issue.
->
->
->
-> **Me:** As I said, the roads are fine. Where are you getting pizzas from?
->
->
->
-> **User:** I’m not really sure. Can you check all places that deliver pizzas?
->
->
->
-> **Me:** No I don’t even know all the places that deliver pizza. You need to narrow it down.
->
->
->
-> **User:** I think it is Subway.
->
->
->
-> **Me:** Okay, I’ll check…No, I just looked and Subway doesn't deliver pizzas.
->
->
->
-> **User:** I’m pretty sure it is Subway. Can you just allow all food from Subway and we can see if pizza shows up?
->
->
->
-> **Me:** Sigh, fine I’ve allowed all food from Subway, but I don’t think that is the issue.
->
->
->
-> **User:** Yeah I’m still not getting pizza. Can you check the roads?
->
->
->
-> **Me:** It’s not the roads, the roads are fine. I’m pretty sure Subway isn’t the place.
->
->
->
-> **User:** Okay, I found it. It’s Papa Johns.
->
->
->
-> **Me:** Okay, I looked and Papa Johns does deliver pizza. Is it the local Papa Johns or one in a different town?
->
->
->
-> **User:** I don’t know. Can you allow pizza from all Papa Johns to me?
->
->
->
-> **Me:** No I can’t do that. Can you get me an address for Papa Johns?
->
->
->
-> **User:** No, I only know it as Papa Johns. Can you get me all the addresses of all Papa Johns and I’ll tell you if one of them is correct?
->
->
->
-> **Me:** No, I don’t have time for that. Okay, I looked at the local one and it looks like they have sent you pizza in the past and they are currently allowed to send you pizzas. Try ordering a pizza while I watch.
->
->
->
-> **User:** Yeah still no pizza. I’m guessing they are getting blocked at the freeway. Can you check the freeway to make sure they can get through?
->
->
->
-> **Me:** No, this is a local delivery. They aren't even using the freeway.
->
->
->
-> **User:** Okay, well then it has to be a road issue.
->
->
->
-> **Me:** No, the roads are fine. Okay, I just drove from the Papa Johns to the address they have on file for you and there is nothing there.
->
->
->
-> **User:** Hmm, wait we did move recently.
->
->
->
-> **Me:** Did you give your new address to Papa Johns?
->
->
->
-> **User:** No, I just thought they would be able to look me up by name.
->
->
->
-> **Me:** No they need your new address. What’s your new address?
->
->
->
-> **User:** I’m not really sure. Can you look it up?
->
->
->
-> **Me:** Sigh, give me a second…Okay, I found your address and gave it to Papa Johns. Try ordering a pizza now.
->
->
->
-> **User:** HEY! PIZZA JUST SHOWED UP!
->
->
->
-> **Me:** Okay, good.
->
->
->
-> **User:** (To everyone else they know) I apologize for the delay in the pizza but there was a major road issue that was preventing the pizza from getting to me. The network engineer has fixed the roads and we are able to get pizza again.
->
->
->
-> **Me:** But it wasn’t the roads…whatever.
->
->
->
-> **User:** Oh, can you also check on an issue where Chinese food isn’t getting to me? I think it may be a road issue.
->
->
+
+***
+
+> ## What it's Like to be a Network Engineer...  
+> ### ...translated into normal people speak  
+&nbsp;
+> User: I think we are having a major road issue.
+&nbsp;
+> Me: What? No, I just checked, the roads are fine. I was actually just on the roads.
+&nbsp;
+> User: No, I’m pretty sure the roads are down because I’m not getting pizzas.
+&nbsp;
+> Me: Everything else on the roads is fine. What do you mean you aren’t getting pizzas?
+&nbsp;
+> User: I used to get pizzas when I ordered them, now I’m not getting them. It has to be a road issue.
+&nbsp;
+> Me: As I said, the roads are fine. Where are you getting pizzas from?
+&nbsp;
+> User: I’m not really sure. Can you check all places that deliver pizzas?
+&nbsp;
+> Me: No I don’t even know all the places that deliver pizza. You need to narrow it down.
+&nbsp;
+> User: I think it is Subway.
+&nbsp;
+> Me: Okay, I’ll check…No, I just looked and Subway doesn't deliver pizzas.
+&nbsp;
+> User: I’m pretty sure it is Subway. Can you just allow all food from Subway and we can see if pizza shows up?
+&nbsp;
+> Me: Sigh, fine I’ve allowed all food from Subway, but I don’t think that is the issue.
+&nbsp;
+> User: Yeah I’m still not getting pizza. Can you check the roads?
+&nbsp;
+> Me: It’s not the roads, the roads are fine. I’m pretty sure Subway isn’t the place.
+&nbsp;
+> User: Okay, I found it. It’s Papa Johns.
+&nbsp;
+> Me: Okay, I looked and Papa Johns does deliver pizza. Is it the local Papa Johns or one in a different town?
+&nbsp;
+> User: I don’t know. Can you allow pizza from all Papa Johns to me?
+&nbsp;
+> Me: No I can’t do that. Can you get me an address for Papa Johns?
+&nbsp;
+> User: No, I only know it as Papa Johns. Can you get me all the addresses of all Papa Johns and I’ll tell you if one of them is correct?
+&nbsp;
+> Me: No, I don’t have time for that. Okay, I looked at the local one and it looks like they have sent you pizza in the past and they are currentlyllowed to send you pizzas. Try ordering a pizza while I watch.
+&nbsp;
+> User: Yeah still no pizza. I’m guessing they are getting blocked at the freeway. Can you check the freeway to make sure they can get through?
+&nbsp;
+> Me: No, this is a local delivery. They aren't even using the freeway.
+&nbsp;
+> User: Okay, well then it has to be a road issue.
+&nbsp;
+> Me: No, the roads are fine. Okay, I just drove from the Papa Johns to the address they have on file for you and there is nothing there.
+&nbsp;
+> User: Hmm, wait we did move recently.
+&nbsp;
+> Me: Did you give your new address to Papa Johns?
+&nbsp;
+> User: No, I just thought they would be able to look me up by name.
+&nbsp;
+> Me: No they need your new address. What’s your new address?
+&nbsp;
+> User: I’m not really sure. Can you look it up?
+&nbsp;
+> Me: Sigh, give me a second…Okay, I found your address and gave it to Papa Johns. Try ordering a pizza now.
+&nbsp;
+> User: HEY! PIZZA JUST SHOWED UP!
+&nbsp;
+> Me: Okay, good.
+&nbsp;
+> User: (To everyone else they know) I apologize for the delay in the pizza but there was a major road issue that was preventing the pizza from getting toe. The network engineer has fixed the roads and we are able to get pizza again.
+&nbsp;
+> Me: But it wasn’t the roads…whatever.
+&nbsp;
+> User: Oh, can you also check on an issue where Chinese food isn’t getting to me? I think it may be a road issue.
+&nbsp;
+> -- <cite>[Ron Buchalski](https://www.linkedin.com/in/ron-buchalski-5981081b/)</cite>
