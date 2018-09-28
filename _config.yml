@@ -139,7 +139,7 @@ toc:
   decodeEntities: false
   anchor:
     position: after
-    symbol: '#'
+    symbol: ''
     style: header-anchor
 ### hexo-generator-feed
   feed:
