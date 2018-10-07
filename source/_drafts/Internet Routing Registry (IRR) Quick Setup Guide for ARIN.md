@@ -16,6 +16,8 @@ Enter Internet Routing Registries.
 > To help automate this task, the Internet Routing Registry (IRR) and the Routing Policy Specification Language (RPSL) were developed to allow you to, in a formal way, describe your routing policy and post it online. This is done by the network of [mutiple IRR databases](http://www.irr.net/docs/list.html) (notable ones include radb, altdb, and those run by the Regional Internet Registries) who allow you to create RPSL objects in their database, which they then serve to others answering their whois queries generating BGP filters.
 > <cite> [fcix.net](http://fcix.net/whitepaper/2018/07/14/intro-to-irr-rpsl.html)</cite>
 
+Additionally, the major IRRs you see on [this list](http://www.irr.net/docs/list.html) mirror each other, which means you can query one database and get (cached and mirrored) answers from them all.
+
 ### Where
 If you’re in the Europe region, the [RIPE Database](https://www.ripe.net/manage-ips-and-asns/db/support/documentation/ripe-database-documentation) is your friend. 
 
@@ -25,3 +27,5 @@ I had a number of problems getting this to work as expected, at first, primarily
 
 ### How
 
+#### Maintainer
+First, you need a maintainer. A maintainer is essentially a parent object in the database that is tied to your Organization. Any database entries you add reference the maintainer.
