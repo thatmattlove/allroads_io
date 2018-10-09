@@ -27,5 +27,36 @@ I had a number of problems getting this to work as expected, at first, primarily
 
 ### How
 
+First, build your object templates. These are essentially text files that follow [RPSL](http://www.irr.net/docs/rpsl.html) formatting. 
+
 #### Maintainer
 First, you need a maintainer. A maintainer is essentially a parent object in the database that is tied to your Organization. Any database entries you add reference the maintainer.
+
+Here’s a breakdown of the maintainer fields and what their values would be for an imaginary company:
+
+| Company Attribute | Company Value | `MNTNER` Attribute | `MNTNER` Value |
+|:--|:--|:--|:--|
+| Name |  |  |  |
+| RIR ORG ID |  |  |  |
+| RIR Admin POC |  |  |  |
+| RIR Tech POC |  |  |  |
+| Send notification about this update to: |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+
+```
+mntner: MNT-OS-242
+descr: <Name of your Organization>
+admin-c: ENGIN218-ARIN
+tech-c: ENGIN218-ARIN
+upd-to: matt@omnificentsystems.com
+mnt-nfy: matt@omnificentsystems.com
+auth: MD5-PW $1$vEhUnzoX$DlSkffFIp7eRrA6mu/MEz0
+mnt-by: MNT-OS-242
+referral-by: MNT-OS-242
+changed: matt@omnificentsystems.com
+source: ARIN
+```
