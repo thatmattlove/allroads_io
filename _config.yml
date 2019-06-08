@@ -40,7 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace:
 
@@ -117,7 +117,7 @@ theme_config:
     home: /
     about: /about/
     articles: /archives/
-  rss: 
+  rss:
   social_links:
     twitter: https://twitter.com/checktheroads
     linkedin: https://www.linkedin.com/in/matt-love/
