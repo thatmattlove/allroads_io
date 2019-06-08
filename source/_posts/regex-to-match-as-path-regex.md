@@ -11,7 +11,7 @@ While working on input validation for my soon-to-be-released looking glass app H
 | Expression               |                                                 Match |
 | :----------------------- | ----------------------------------------------------: |
 | `_65000$`                |                                 Originated by AS65000 |
-| `^65000\_`               |                                 Received from AS65000 |
+| `^65000\`                |                                 Received from AS65000 |
 | `_65000_`                |                                           Via AS65000 |
 | `_65000_65001_`          |                               Via AS65000 and AS65001 |
 | `_65000(_.+_)65001$`     |     Anything from AS65001 that passed through AS65000 |
